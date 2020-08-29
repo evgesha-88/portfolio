@@ -62,4 +62,35 @@ body {
     float: left;
     margin-right: 10px;   
 }
- 
+
+html {
+    font-size: 20px;
+}
+.parent {
+    font-size: 10px;
+}
+
+.child {
+    font-size: 2rem;
+    }
+
+svg {
+    fill: red;
+    stroke: royalblue;
+}
+
+svg:hover {
+    fill: green;
+    }
+
+   .test5 {
+       width: 10px;
+       height: 10px;
+       border-radius: 50%;
+       background-color: tomato;
+       position: fixed; 
+    right: 100px;
+    bottom: 100px;
+   } 
+   
+   
