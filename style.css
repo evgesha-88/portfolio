@@ -1,16 +1,26 @@
 * { 
     box-sizing: border-box;
 }
+@font-face {
+    font-family: "Balsamiq";
+    src: url("./fonts/BalsamiqSans-Bold.ttf")
+} 
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap'); */
 body {
     margin: 0;
     padding: 0;
+    
 }
+
 .title1 {
     font-weight: 500;
     font-size: 32px;
     text-align: center;
     color: #000000;
     margin-bottom: 50px;
+    font-family: '';
 } 
 
 .text1 {
@@ -19,6 +29,7 @@ body {
     color: #727272;
     width: 50%;
     margin: 0 auto;
+    font-family:Dancing Script;
 }
 
 .block {
@@ -92,5 +103,96 @@ svg:hover {
     right: 100px;
     bottom: 100px;
    } 
+
+   .Border {
+    font-family: "Balsamiq";
+   }
+
+   .block1 {
+    background-color:#EEEFF1;
+    padding: 57px;}
+
+   .item {
+    /* font-family:'Indie Flower'; */
+    font-family: 'Krona One', sans-serif;
+    float: left;
+    font-size: 16px;
+    color: #000000;
+    margin-right: 42px;
+   }
+
+   .test9 {
+       height: 500px;
+       background-color: tomato;
+   }
+   @media(max-width:700px){
+       .test9 {
+        background-color: rgb(238, 224, 71);
+        }
+    }
+
+    .gallery-item-paper {
+        width: 25%;
+        height: 480px;
+        float: left;
+        background-image: url("gallery-paper.png");
+        background-size: cover;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .gallery-item-laptop {
+        width: 25%;
+        height: 480px;
+        float: left;
+        background-image: url("gallery-laptop.png");
+        background-size: cover;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .gallery-item-paper-shadew {
+        background-color: rgba(52, 84, 122, 0.8);
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        right: 0;
+        opacity: 0;
+        transition: 1s all ease-in;
+    }
+
+    .gallery-item-laptop-shadew {
+        background-color: rgba(52, 84, 122, 0.8);
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        right: 0;
+        opacity: 0;
+        transition: 1s all ease-in;
+    }
+
+   .gallery-item-laptop-shadew:hover {
+       opacity: 1;
+   }
+
+   .gallery-item-paper-shadew:hover {
+       opacity: 1;
+   }
+
+   .microsoft-item {
+       float: left;
+       padding-right: 30px;
+   }
+
+   .container-microsoft {
+       width: 80%;
+       padding: 72px 100px;
+   }
+
+   
    
    
