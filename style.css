@@ -1,13 +1,6 @@
 * { 
     box-sizing: border-box;
 }
-@font-face {
-    font-family: "Balsamiq";
-    src: url("./fonts/BalsamiqSans-Bold.ttf")
-} 
-@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
-/* @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap'); */
 body {
     margin: 0;
     padding: 0;
@@ -21,7 +14,7 @@ body {
     color: #000000;
     margin-bottom: 50px;
     font-family: '';
-} 
+}
 
 .text1 {
     font-size: 16px;
@@ -74,124 +67,115 @@ body {
     margin-right: 10px;   
 }
 
-html {
-    font-size: 20px;
-}
-.parent {
-    font-size: 10px;
+.my-skills {
+    background-color: #E5E5E5;
+    padding: 102px 101px;
 }
 
-.child {
-    font-size: 2rem;
-    }
-
-svg {
-    fill: red;
-    stroke: royalblue;
-}
-
-svg:hover {
-    fill: green;
-    }
-
-   .test5 {
-       width: 10px;
-       height: 10px;
-       border-radius: 50%;
-       background-color: tomato;
-       position: fixed; 
-    right: 100px;
-    bottom: 100px;
-   } 
-
-   .Border {
-    font-family: "Balsamiq";
-   }
-
-   .block1 {
-    background-color:#EEEFF1;
-    padding: 57px;}
-
-   .item {
-    /* font-family:'Indie Flower'; */
-    font-family: 'Krona One', sans-serif;
+.my-skills-box {
     float: left;
+    padding-right: 150px;
+}
+.my-skills-title {
+    font-size: 32px;
+    font-family: Roboto;
+}
+
+.photoshop-line {
+    width: 445px;
+    height: 4px;
+    background-color:#C4C4C4;
+}
+
+
+
+.design-verstka {
+    background-color:#EEEFF1;
+    padding: 57px;
+}
+
+.wd-computer {
+    float: left;
+}
+
+.item {
+   float: left;
     font-size: 16px;
     color: #000000;
     margin-right: 42px;
-   }
+    margin-bottom: 162px;
+}
 
-   .test9 {
-       height: 500px;
-       background-color: tomato;
-   }
-   @media(max-width:700px){
-       .test9 {
-        background-color: rgb(238, 224, 71);
-        }
-    }
+/*.wd {
+   float: left;
+   padding-right:398px; 
+}
 
-    .gallery-item-paper {
-        width: 25%;
-        height: 480px;
-        float: left;
-        background-image: url("gallery-paper.png");
-        background-size: cover;
-        overflow: hidden;
-        position: relative;
-    }
+.picture-computer {
+    float:left;
+}*/
 
-    .gallery-item-laptop {
-        width: 25%;
-        height: 480px;
-        float: left;
-        background-image: url("gallery-laptop.png");
-        background-size: cover;
-        overflow: hidden;
-        position: relative;
-    }
+.gallery-item-paper {
+    width: 25%;
+    height: 480px;
+    float: left;
+    background-image: url("gallery-paper.png");
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+}
 
-    .gallery-item-paper-shadew {
-        background-color: rgba(52, 84, 122, 0.8);
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        top: 0;
-        left: 0;
-        right: 0;
-        opacity: 0;
-        transition: 1s all ease-in;
-    }
+.gallery-item-laptop {
+    width: 25%;
+    height: 480px;
+    float: left;
+    background-image: url("gallery-laptop.png");
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+}
 
-    .gallery-item-laptop-shadew {
-        background-color: rgba(52, 84, 122, 0.8);
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        top: 0;
-        left: 0;
-        right: 0;
-        opacity: 0;
-        transition: 1s all ease-in;
-    }
+.gallery-item-paper-shadew {
+    background-color: rgba(52, 84, 122, 0.8);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: 1s all ease-in;
+}
 
-   .gallery-item-laptop-shadew:hover {
-       opacity: 1;
-   }
+.gallery-item-laptop-shadew {
+    background-color: rgba(52, 84, 122, 0.8);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: 1s all ease-in;
+}
 
-   .gallery-item-paper-shadew:hover {
-       opacity: 1;
-   }
+.gallery-item-laptop-shadew:hover {
+    opacity: 1;
+}
 
-   .microsoft-item {
-       float: left;
-       padding-right: 30px;
-   }
+.gallery-item-paper-shadew:hover {
+    opacity: 1;
+}
 
-   .container-microsoft {
-       width: 80%;
-       padding: 72px 100px;
-   }
+.microsoft-item {
+    float: left;
+    padding-right: 30px;
+}
+
+.container-microsoft {
+    width: 80%;
+    padding: 72px 100px;
+}
 
    
    
